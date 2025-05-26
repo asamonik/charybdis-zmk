@@ -3,7 +3,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: bullwinkle3000
-      url-base: https://github.com/bullwinkle3000
+      url-base: https://github.com/Cuttlerat
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -11,6 +11,6 @@ manifest:
       import: app/west.yml
     - name: zmk-pmw3360-driver
       remote: bullwinkle3000
-      revision: pmw3360
+      revision: main
   self:
     path: config
